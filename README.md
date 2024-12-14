@@ -34,7 +34,7 @@ Az alap programot a http://localhost:3000/isPrimeNumber?number=3.14 url-lel lehe
 |Jenkins|localhost:8080|CI pipeline|
 |A NodeJS projekt|localhost:3000, isPrimeNumber|A program|
 
-## Hiba
+## Hibák
 Ahogy írtam coospacen is, a Grafana nem menti el a felhasználót, ha használom a destroyt a terraformnál, így hiába írtam át a jelszót, csináltam meg a grafikonokat, mentettem el 3 dashboardot, nem látszódik semmi, ahogyan a prometheusnál sem.
 Így a toolokból csak 4 van használva jól, az nginx, a Jenkins, a pm2, és a terraform.
 
