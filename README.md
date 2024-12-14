@@ -32,6 +32,7 @@ Az [alap program](https://github.com/medgyesizsombor/nodejs-for-devops), amit a 
 |A NodeJS projekt|localhost:3000, isPrimeNumber|
 
 ## Próba
+[3](localhost:3000/isPrimeNumber?number=3)
 |Próba|Eredmény|
 |-|-|
 |[3](localhost:3000/isPrimeNumber?number=3)| 3 prímszám|
