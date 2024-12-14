@@ -27,7 +27,7 @@ resource "docker_container" "grafana" {
   }
 
   env = [
-    "GF_SECURITY_ADMIN_PASSWORD=${var.grafana_admin_password}",
+    "GF_SECURITY_ADMIN_PASSWORD=admin",
     "GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource"  # Opcionális plugin-ek
   ]
 

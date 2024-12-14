@@ -2,7 +2,7 @@
 variable "project_name" {
   description = "A projekt neve, ami az erőforrások elnevezésében is megjelenik"
   type        = string
-  default     = "nodejs-sample"
+  default     = "is-prime"
 }
 
 variable "app_port" {
