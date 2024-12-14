@@ -23,7 +23,7 @@ Az alap programot a http://localhost:3000/isPrimeNumber?number=3.14 url-lel lehe
 ## Felhasználónév és Jelszó
 |Eszköz|Felhasználónév|Jelszó|
 |----------------|-------------------------------|-----------------------------|
-|Grafan|admin|zsombi|
+|Grafan|admin|admin|
 |Jenkins|zsombi|zsombi|
 
 ## Elérési pontok
