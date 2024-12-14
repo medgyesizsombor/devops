@@ -4,7 +4,7 @@
 A kiválaszott 5 eszköz:
 - Jenkins: CI,
 - pm2: deploy
-- Nginx: saját domain használata,
+- Nginx: saját domain használata (itt a "sudo nano /etc/hosts" kóddal kell megadni a hostok közé, hogy "172.60.0.30     prime-number.test",
 - Terraform: Futtatás,
 - Prometheus: Monitorozás,
 - Grafan: Monitorozás
