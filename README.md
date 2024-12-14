@@ -17,13 +17,13 @@ Az [alap program](https://github.com/medgyesizsombor/nodejs-for-devops), amit a 
 
 
 ## Felhasználónév és Jelszó
-|Eszköz          |Felhasználónév				 |Jelszó                       |
+|Eszköz|Felhasználónév|Jelszó|
 |----------------|-------------------------------|-----------------------------|
-|Grafan			 |admin				             |admin                        |
-|Jenkins         |zsombi			             |Maxiking1                    |
+|Grafan|admin|admin|
+|Jenkins|zsombi|zsombi|
 
 ## Elérési pontok
-|Eszköz          |Url				 			 |
+|Eszköz|Url|
 |----------------|-------------------------------|
 |Grafan|localhost:4000|
 |Prometheus|localhost:9090|
