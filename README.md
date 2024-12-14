@@ -22,6 +22,13 @@ Az [alap program](https://github.com/medgyesizsombor/nodejs-for-devops), amit a 
 |Grafan			 |admin				             |admin                        |
 |Jenkins         |zsombi			             |Maxiking1                    |
 
+## Elérési pontok
+|Eszköz          |Url				 			 |
+|----------------|-------------------------------|
+|Grafan|localhost:4000|
+|Prometheus|localhost:9090|
+|Jenkins|localhost:8080|
+|A NodeJS projekt|localhost:3000, isPrimeNumber|
+
 ## Author
 [Medgyesi Zsombor](https://github.com/medgyesizsombor)
-
