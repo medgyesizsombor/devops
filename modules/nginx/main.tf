@@ -3,7 +3,7 @@ terraform {
   required_providers {
     docker = {
       source  = "kreuzwerker/docker"
-      version = "~> 3.0.0"
+      version = "~> 3.0.2"
     }
   }
 }
@@ -23,8 +23,8 @@ resource "docker_container" "nginx" {
   image = docker_image.nginx.image_id
 
   ports {
-    internal = var.internal_port
-    external = var.external_port
+    internal = 80
+    external = 80
   }
 
   # Hálózat csatlakozás

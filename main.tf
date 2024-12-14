@@ -14,7 +14,7 @@ resource "docker_network" "app_network" {
   driver = "bridge"
   # Enable IPv6 if needed
   ipam_config {
-    subnet = "172.60.0.0/16"  # Customize subnet as needed
+    subnet = "172.60.0.0/16"
     gateway = "172.60.0.1"
   }
   internal = false
@@ -24,13 +24,15 @@ resource "docker_network" "app_network" {
 module "nodejs_app" {
   source = "./modules/nodejs-app/docker"
   
-  app_port = var.app_port
   container_name = "${var.project_name}-nodejs"
+  project_name = var.project_name
 }
 
 # Nginx modul
 module "nginx" {
   source = "./modules/nginx"
+
+  project_name = var.project_name
 }
 
 # Prometheus modul
@@ -38,15 +40,13 @@ module "prometheus" {
   source = "./modules/prometheus"
   
   network = docker_network.app_network.name
-  nodejs_app_name = module.nodejs_app.container_name
 }
 
 # Grafana modul
 module "grafana" {
   source = "./modules/grafana"
-  
+
   network = docker_network.app_network.name
-  prometheus_url = "http://prometheus:9090"
 }
 
 output "network_info" {
