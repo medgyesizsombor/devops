@@ -2,7 +2,8 @@
 
 ## Eszközök
 A kiválaszott 5 eszköz:
-- Jenkins: Tesztelés és deployolás,
+- Jenkins: CI,
+- pm2: deploy
 - Nginx: saját domain használata,
 - Terraform: Futtatás,
 - Prometheus: Monitorozás,
